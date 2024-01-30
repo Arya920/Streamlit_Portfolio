@@ -25,7 +25,7 @@ def user():
 
     st.write("")
     st.write("")
-    image1 = Image.open("Images\PF2.jpg")
+    image1 = Image.open("Images/PF2.jpg")
     mask = Image.new('L', image1.size, 0)
     draw = ImageDraw.Draw(mask)
     draw.ellipse((0, 0, image1.width, image1.height), fill=255)
