@@ -9,7 +9,7 @@ def services():
     col3,col4 = st.columns(2)
 
     with col3:
-        stat_logo_url = "logos\stat.svg"
+        stat_logo_url = "logos/stat.svg"
         st.image(stat_logo_url, width=40)
         st.subheader('**:green[Statistician]**')
         st.markdown("""Master the art of data interpretation and analysis, providing statistical insights to guide critical business decisions.
@@ -17,14 +17,14 @@ def services():
 
         st.write("")
 
-        PBI_logo_url = "logos\language.svg"
+        PBI_logo_url = "logos/language.svg"
         st.image(PBI_logo_url, width=40)
         st.subheader('**:green[NLP Engineer]**')
         st.markdown("""Unlock the potential of natural language processing to extract meaningful information from textual data.
                     Develop innovative solutions for text analysis, sentiment analysis, and language understanding, empowering your applications with human-like comprehension capabilities.""")
 
     with col4:
-        AI_logo_url = "logos\AI.svg"
+        AI_logo_url = "logos/AI.svg"
         st.image(AI_logo_url, width=45)
         st.subheader('**:green[AI Developer]**')
         st.markdown("""TCraft cutting-edge artificial intelligence solutions tailored to your specific needs,
@@ -33,7 +33,7 @@ def services():
         st.write("")
         st.write("")
     
-        sql_logo_url = "logos\sql.svg"
+        sql_logo_url = "logos/sql.svg"
         st.image(sql_logo_url, width=45)
         st.subheader('**:green[SQL Developer]**')
         st.markdown("""Design robust and secure databases to store and retrieve data efficiently. Leverage expert SQL coding techniques to streamline
@@ -110,7 +110,7 @@ def experiences():
     with col1:
 
         with st.expander('ISNARTECH PVT LTD.'):
-            isnartech_logo_url = "logos\Isnartech_logo.jpeg"
+            isnartech_logo_url = "logos/Isnartech_logo.jpeg"
             st.image(isnartech_logo_url, width=150)
 
             st.write('Job Role : AI DEVELOPER')
@@ -131,7 +131,7 @@ def experiences():
 
     with col2:
         with st.expander('EXPOSYS DATA LABS'):
-            EDL_logo = "logos\EDL_logo.jpeg"
+            EDL_logo = "logos/EDL_logo.jpeg"
             st.image(EDL_logo, width=95)
 
             st.write('Job Role : DATA SCIENCE INTERN')
@@ -189,7 +189,7 @@ def projects():
 
     with col5:
         st.subheader('**:green[NLP-Powered Document Summarizer ]**')
-        summarizer_url = "Images\summarizer.png"
+        summarizer_url = "Images/summarizer.png"
         st.image(summarizer_url, use_column_width=True)
         st.link_button("Repository", "https://github.com/Arya920/Document_Summarizer")
         if st.button(button_label, key='button1'):
@@ -200,7 +200,7 @@ def projects():
 
 
         st.subheader('**:green[Gender Classification using CNN & OpenCV ]**')
-        gender_url = "Images\gender.jpg"
+        gender_url = "Images/gender.jpg"
         st.image(gender_url, use_column_width=True)
         st.link_button("Repository", "https://github.com/Arya920/Gender-Detection-Project")
         
@@ -211,7 +211,7 @@ def projects():
 
     with col6:
         st.subheader("**:green[Career Buddy - Career Guidance AI Chatbot]**")
-        chatbot_url = "Images\chatbot.png"
+        chatbot_url = "Images/chatbot.png"
         st.image(chatbot_url, use_column_width=True)
         st.link_button("Repository", "https://github.com/Arya920/Career-Guidance-AI-bot")
         if st.button(button_label, key='button3'):
@@ -219,7 +219,7 @@ def projects():
                     and recommendations for their career choices """)
             
         st.subheader('**:green[Web Application for Stock Price Analysis & Prediction ]**')
-        sp_url = "Images\sp2.jpg"
+        sp_url = "Images/sp2.jpg"
         st.image(sp_url, width= 406)
         st.link_button("Repository", "https://github.com/Arya920/StockPriceForecasting")
         if st.button(button_label, key='button4'):
