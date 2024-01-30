@@ -1,13 +1,5 @@
 import streamlit as st 
-from streamlit_extras.stylable_container import stylable_container
-from pathlib import Path
-from PIL import Image,ImageDraw
-from services import services
-from Projects import projects
-from skills import skills
-from Education import education
-from Experiences import experiences
-from html_codes import html_code_for_social2
+from services import services,skills,experiences,education,projects
 from user_details import user
 
 
