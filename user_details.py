@@ -50,9 +50,9 @@ def user():
             key="green_button",
             css_styles="""
                 button {
-                    background-color: green;
-                    color: white;
-                    border-radius: 20px;
+                    
+                    color: black;
+                    border-radius: 40px;
                 }
                 """,
         ):
