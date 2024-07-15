@@ -5,7 +5,7 @@ from PIL import Image,ImageDraw
 
 html_code_for_social2 = """
             <p align="center">
-                <a href="https://linkedin.com/in/linkedin.com/in/arya-chakraborty2002" target="blank">
+                <a href="https://www.linkedin.com/in/arya-chakraborty2002/" target="blank">
                     <img align="left" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin.com/in/arya-chakraborty2002" height="25" width="35" />
                 </a>
                 <a href="https://instagram.com/https://www.instagram.com/_an_orthodox_outlaw_/" target="blank">
@@ -44,14 +44,14 @@ def user():
         st.markdown(html_code_for_social2, unsafe_allow_html=True )
 
         current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-        resume_path  = current_dir / "documents" / "Resume_DS.pdf"
+        resume_path  = current_dir / "documents" / "Resume_DS_latest.pdf"
 
         with stylable_container(
             key="green_button",
             css_styles="""
                 button {
                     
-                    color: black;
+                    color: white;
                     border-radius: 40px;
                 }
                 """,

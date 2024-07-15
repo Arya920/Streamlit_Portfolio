@@ -1,9 +1,5 @@
 import streamlit as st 
 
-
-
-
-
 ##------------------------------------------------------------SERVICES--------------------------------------------------------------------------------------------------------------------------------------
 def services():
     col3,col4 = st.columns(2)
@@ -80,7 +76,7 @@ def skills():
                         ✅ **:gray[SQL]**        
                         """)
             
-        with st.expander('Web Dev 📱'):
+        with st.expander('Web Frameworks 📱'):
             st.markdown("""                    
                         ✅ **:gray[Streamlit]**  
                         ✅ **:gray[Flask]**  
@@ -157,7 +153,7 @@ def education():
         st.subheader("**:green[Vellore Institute of Technology, Amaravati]**")
         st.write('MSc Data Science')
         st.markdown(""" 
-                -  CGPA: 8.78
+                -  CGPA: 8.9
                 - Subjects: Python, Data structures, Machine learning, Deep learning, Information retrieval techniques.
                   """)
         
