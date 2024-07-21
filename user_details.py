@@ -33,36 +33,38 @@ def user():
     circular_image.paste(image1, mask=mask)
 
 
+    with st.container():
+        left_column, middle_column, right_column = st.columns((1,0.2,0.6))
 
-    col1,col2 = st.columns(2)
-    with col1:
-        st.markdown('''Data scientist and ML/DL enthusiast with a flair for crafting captivating web apps that turn complex datasets into actionable insights.
-                    ''')
-        st.markdown(':white_check_mark: Want to work together?')
-        st.markdown('Send me an email 👉 [Mail me here](aryachakraborty.official@gmail.com)')
-        st.markdown('Or you can contact me here 👇')
-        st.markdown(html_code_for_social2, unsafe_allow_html=True )
+        #col1,col2 = st.columns(2)
+        with left_column:
+            st.markdown('''Data scientist and ML/DL enthusiast with a flair for crafting captivating web apps that turn complex datasets into actionable insights.
+                        ''')
+            st.markdown(':white_check_mark: Want to work together?')
+            st.markdown('Send me an email 👉 [Mail me here](aryachakraborty.official@gmail.com)')
+            st.markdown('Or you can contact me here 👇')
+            st.markdown(html_code_for_social2, unsafe_allow_html=True )
 
-        current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-        resume_path  = current_dir / "documents" / "Resume_DS_latest.pdf"
+            current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+            resume_path  = current_dir / "documents" / "Resume_DS_latest.pdf"
 
-        with stylable_container(
-            key="green_button",
-            css_styles="""
-                button {
-                    
-                    color: white;
-                    border-radius: 40px;
-                }
-                """,
-        ):
-            with open(resume_path, "rb") as pdf_file:
-                PDFbyte = pdf_file.read()
-            st.download_button(
-                label=" 📄 Download Resume",
-                data=PDFbyte,
-                file_name=resume_path.name,
-                mime="application/octet-stream",
-            )
-    with col2:
-        st.image(circular_image, width=220)
+            with stylable_container(
+                key="green_button",
+                css_styles="""
+                    button {
+                        
+                        color: white;
+                        border-radius: 40px;
+                    }
+                    """,
+            ):
+                with open(resume_path, "rb") as pdf_file:
+                    PDFbyte = pdf_file.read()
+                st.download_button(
+                    label=" 📄 Download Resume",
+                    data=PDFbyte,
+                    file_name=resume_path.name,
+                    mime="application/octet-stream",
+                )
+        with right_column:
+            st.image(circular_image, width=220)

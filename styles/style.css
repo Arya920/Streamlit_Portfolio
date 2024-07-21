@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+
+/* * {font-family: 'Raleway';} */
+ul {
+    padding-left: 1.5rem;
+  } 
+p {
+  text-align: justify;
+  }
+p, ul, h3, a {
+  font-family: 'Raleway';
+  }
+
+h1, h2 {
+    text-align:left;
+    font-family:'Bebas Neue';
+}
+
+a {text-decoration: none;
+color: #0072b1 !important;
+font-weight: 800;}
+
+a:hover {color:#800000 !important;
+text-decoration: none;}
+
+.years {text-align: right;}
+
+
+
+
+/* .navbar {
+    background-color: #79B3A4;
+  } */
+
+/* img {
+    text-align: right;
+    margin: right 0px;
+    display:block; 
+    float:right;
+} */
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}

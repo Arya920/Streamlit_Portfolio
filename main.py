@@ -15,7 +15,10 @@ st.set_page_config(
     page_icon=page_icon,
     layout="centered"
 )
-st.title("**:rainbow[HI, I'm Arya Chakraborty]**")
+
+# with open("./styles/style.css") as f:
+#     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+st.title("**HI, I'm Arya Chakraborty**")
 
 if __name__ == "__main__":
     user()  ## Check -----> "user_detals.py"
