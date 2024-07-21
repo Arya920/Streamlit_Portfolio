@@ -13,7 +13,7 @@ def extract_text_with_pdfplumber(pdf_path):
     formatted_text = '\n'.join(lines)
     return formatted_text
 
-pdf_path = "documents/Resume_DS_latest.pdf"
+
 #extracted_text = extract_text_with_pdfplumber(pdf_path)
 #print(extracted_text)
 
@@ -26,4 +26,4 @@ def clean_extracted_text(pdf_path):
     
     return text
 
-print(clean_extracted_text(pdf_path))
+#print(clean_extracted_text(pdf_path))
