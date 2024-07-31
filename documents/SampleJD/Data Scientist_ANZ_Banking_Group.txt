@@ -1,0 +1,40 @@
+At ANZ, we're applying new ways technology and data can be harnessed as we work towards a common goal: to improve the financial wellbeing and sustainability of our millions of customers.
+
+About the Role
+
+As a Data Scientist within Australia Data, you’ll play a key role in helping to build Advanced analytics & Data Science solutions for multiple business domains. You will experience building solutions from scratch with end to end ownership, along with stakeholder interaction and be a part of complete product lifecycle. You will be exposed to emerging technologies and get constant learning opportunities within the role.
+
+Banking is changing and we’re changing with it, giving our people great opportunities to try new things, learn and grow. Whatever your role at ANZ, you’ll be building your future, while helping to build ours.
+
+What will your day look like?
+
+Address and solve complex business issues using large volume of data
+Develop insights and algorithms that transform key business processes and automate banker decisions and activities
+Continuous generation, monitoring, presenting and conducting of 'fact-based' analysis, insights and models to use at any time for the development and improvement of relevant and innovative propositions
+Design, build, deploy, monitor and assess relevant models for customers, clients, products and channels
+Initiate, design and implement innovative capabilities in the field of data science and data analytics
+
+As a Data Scientist, you will:
+Exhibit strong analytical mindset with ability to analyse data and generate insights
+Build data science solutions for multiple business use cases
+Utilize your existing skillset to deliver quality results using advanced analytics, ML,AI
+Focus on continuously improving your technical skills
+Exhibit strong data management skills
+Develop on communication and presentation skills
+Lead and inspire a team
+Need to have good understanding of the Banking system and products, service, channels
+Ability to effectively communicate to all stakeholders (technical and non-technical)
+
+What will you bring?
+
+Problem Solving - Comprehensive understanding of a range of analytical problem-solving advanced analytics techniques
+Continuous Improvement & Change – Understands, accepts and supports the need for change and adapts own behaviours to changing circumstances and provides input to change projects
+Data Wrangling: Skills in data cleaning, transformation, and pre-processing are essential for dealing with messy, unstructured data.
+Programming Skills: Proficiency in programming languages like Python & SQL is crucial for data manipulation, analysis, and model development.
+Technical Skills: Familiarity with machine learning algorithms and techniques such as regression, classification, clustering, and time series forecasting is necessary for building predictive models and extracting insights from data.
+Understanding of Statistical methods and ability to rightly apply them for business solving.
+Experience in building statistical model from scratch covering problem statement definition, data extraction, EDA, model selection/training/evaluation/tuning, validation, interpretation, deployment & monitoring
+Influence & Relationship Building - Uses an understanding of others’ point of view and empathy to gain buy-in to develop existing relationships and help build new ones
+Product Expert (new innovation) – An understanding of analytical techniques, including awareness of new and emerging capabilities
+
+You’re not expected to have 100% of these skills. At ANZ a growth mindset is at the heart of our culture, so if you have most of these things in your toolbox, we’d love to hear from you.

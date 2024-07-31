@@ -1,7 +1,9 @@
 [theme]
-primaryColor = '#7792E3'
-backgroundColor = '#002b36'
-secondaryBackgroundColor = '#152238'
-textColor = '#FFFFFF'
-font = "sans serif"
-
+# red: #800000 #79B3A4
+primaryColor="#800000"
+backgroundColor="#EBFFF0"
+# navbar: #A63D33 #79B3A4
+# secondaryBackgroundColor = '#19424d'
+secondaryBackgroundColor = '#407887'
+# vert : #1E332D
+textColor="#000000"

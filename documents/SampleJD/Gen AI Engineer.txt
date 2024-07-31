@@ -1,0 +1,31 @@
+Qualification: Any Engineering/ Computers degree
+
+Roles & Responsibilities:
+
+Designing, developing, and implementing generative AI models and algorithms utilizing state-of-the-art techniques such as GPT, VAE, GANs & LLMs.
+Generate required data using data generation techniques,
+Implement the data storages/vector storages required for models
+Use robust Gen AI/LLM frameworks like Langchain to build the model
+Develop, test and deploy models
+Collaborating with cross-functional teams to define AI project requirements and objectives, ensuring alignment with overall business goals.
+Conducting research to stay up-to-date with the latest advancements in generative AI, machine learning, and deep learning techniques and identify opportunities to integrate them into our products.
+Optimizing existing generative AI models for improved performance, scalability, and efficiency.
+Developing and maintaining AI pipelines, including data preprocessing, feature extraction, model training, and evaluation.
+Developing clear and concise documentation, including technical specifications, user guides, and presentations, to communicate complex AI concepts to both technical and non-technical stakeholders.
+Contributing to the establishment of best practices and standards for generative AI development within the organization.
+Providing technical mentorship and guidance to junior team members.
+
+Key Requirements:
+
+
+You have a degree in Computer Science, Artificial Intelligence, Machine Learning, or a related field.
+You have solid experience developing and implementing generative AI models, with a strong understanding of deep learning techniques such as GPT, VAE, GANs, LLMs.(Ollama, HuggingFace, OpenAPI)
+You are proficient in Python/R and have experience with machine learning/LLM/Gen AI libraries and frameworks such as TensorFlow, PyTorch, Keras, Langchain, RAG.
+Concepts on how LLM applications are built, image generation, text generation models
+Familiarity with Guardrails
+You are familiar with cloud-based platforms and services, such as AWS, GCP, or Azure.
+You have experience with natural language processing (NLP) techniques and tools, such as SpaCy, NLTK, or Hugging Face.
+Minimum 2+ years of experience in NLP, LLMs, Gen AI models development
+Familiarity with any database
+
+AI/ML, GPT, VAE, GANs, LLMs, Python, Langchain, RAG.

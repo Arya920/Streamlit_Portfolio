@@ -31,7 +31,7 @@ def user():
     draw.ellipse((0, 0, image1.width, image1.height), fill=255)
     circular_image = Image.new('RGBA', image1.size, (0, 0, 0, 0))
     circular_image.paste(image1, mask=mask)
-
+    cropped_image_url = "Images/PF.png"
 
     with st.container():
         left_column, middle_column, right_column = st.columns((1,0.2,0.6))
@@ -53,7 +53,7 @@ def user():
                 css_styles="""
                     button {
                         
-                        color: white;
+                        color: black;
                         border-radius: 40px;
                     }
                     """,
@@ -67,4 +67,25 @@ def user():
                     mime="application/octet-stream",
                 )
         with right_column:
-            st.image(circular_image, width=220)
+            st.image(cropped_image_url, width=220)
+            #st.markdown(html_code_for_social2, unsafe_allow_html=True )
+
+
+
+        col1, col2 = st.columns([3,1])
+        with col1:
+            st.success('''
+                Dynamic, disciplined & determined, I'm keen to put my skills at the service of causes that are dear to me. My favorite missions are scraping, SQL queries and streamlit development.
+                - Data scientist with  0.7 years's experience
+                - Data science skills
+                - Data analytical skills
+                ''')
+        with col2:
+            pass
+            # st.markdown('''Data Scientist @ Isnartech''')
+            # l = st.radio("Download my resume in FR/ENG:",
+            #     ("ENG","FR"), horizontal=True)
+            # with open(f"./data/{l}_resume.pdf", "rb") as cv_file:
+            #     cv = cv_file.read()
+            # st.download_button("Resume", data = cv, file_name=f'Lilian_Martin.pdf',
+            #                 mime="application/octet-stream")
