@@ -66,7 +66,8 @@ with col1:
     ''')
 with col2:
     layout.txt('<h5 class=years>Jan 2024 - July 2024</h5>','')
-    st.image('logos/isnartech_logo.jpeg')
+    isnartech_logo_url = "logos/Isnartech_logo.jpeg"
+    st.image(isnartech_logo_url)
 
 st.markdown('---')
 
@@ -84,4 +85,5 @@ with col1:
     ''')
 with col2:
     layout.txt("<h5 class=years> Aug 2023 - Oct 2023</h5>","")
-    st.image('logos/EDL_logo.jpeg')
+    EDL_logo_url = "logos/EDL_logo.jpeg"
+    st.image(EDL_logo_url)

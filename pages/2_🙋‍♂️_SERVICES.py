@@ -103,6 +103,6 @@ if submitted:
             server.quit()
             st.success("Your message has been sent successfully!")
         except Exception as e:
-            st.error(f"Failed to send message: This issue is from my side. You can still mail me on my mail address ~ **:orange[aryachakraborty.official@gmail.com]**")
+            st.warning(f"Failed to send message: This issue is from my side. You can still mail me on my mail address ~ **:orange[aryachakraborty.official@gmail.com]**")
     else:
-        st.error("Please fill out all fields.")
+        st.warning("Please fill out all fields.")
