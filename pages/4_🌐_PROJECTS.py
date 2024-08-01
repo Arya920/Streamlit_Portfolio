@@ -43,7 +43,7 @@ if projects == 'Career Buddy - Career Guidance AI Chatbot':
 
 if projects == 'Food Calorie and Weight Estimation for school E.R.P system':
     foodcalorie_url = "Images/Project Images/FoodCalorie/logo.jpg"
-    foodcalorie_pipeline = "Images\Project Images\FoodCalorie\FOOD-CALORIE-PIPELINE.png"
+    foodcalorie_pipeline = "Images/Project Images/FoodCalorie/FOOD-CALORIE-PIPELINE.png"
     foodimage1 = "Images/Project Images/FoodCalorie/FoodImage1.jpg"
     foodimage2 = "Images/Project Images/FoodCalorie/FoodImage2.jpg"
     foodimage3 = "Images/Project Images/FoodCalorie/FoodImage3.jpeg"
