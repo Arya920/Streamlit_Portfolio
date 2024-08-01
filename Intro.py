@@ -25,13 +25,13 @@ def user():
 
     st.write("")
     st.write("")
-    image1 = Image.open("Images/PF2.jpg")
+    image1 = Image.open("Images/Other/PF2.jpg")
     mask = Image.new('L', image1.size, 0)
     draw = ImageDraw.Draw(mask)
     draw.ellipse((0, 0, image1.width, image1.height), fill=255)
     circular_image = Image.new('RGBA', image1.size, (0, 0, 0, 0))
     circular_image.paste(image1, mask=mask)
-    cropped_image_url = "Images/PF.png"
+    cropped_image_url = "Images/Other/PF.png"
 
     with st.container():
         left_column, middle_column, right_column = st.columns((1,0.2,0.6))

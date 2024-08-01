@@ -5,7 +5,7 @@ import json
 from functions import DonutChart
 st.markdown(" # My Customized ATS")
 
-st.warning("""This System only works on local platform as it uses LLAMA CPP which is not designed to be deployed so for that reason to use this ATS you have to fork this repository and follow the below process. """)
+st.warning("""This System only works on local system as it uses LLAMA CPP which is not designed to be deployed so for that reason to use this ATS you have to fork this repository and follow the below process. """)
 
 st.warning("""To run This Web based ATS Checker I have used an open sourced Information Extraction model called **:green[`NuMind/NuExtract`]**. 
            Please Download the model **:green[`NuExtract-Q4_K_L.gguf`]** at first and keep that model in the **:green[`models`]** folder. Use the following link 👇""")

@@ -8,6 +8,7 @@ PAGE_TITLE = "My Services | Arya"
 PAGE_ICON = "🏛"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON,layout="wide")
 
+
 st.title("Want to Hire Me ? ")
 st.text("These are the services I provide")
 st.markdown("---")
@@ -101,8 +102,9 @@ if submitted:
             server.sendmail(from_email, to_email, text)
             print('server connected 🥳')
             server.quit()
-            st.success("Your message has been sent successfully!")
+            st.toast("Your message has been sent successfully!")
         except Exception as e:
-            st.warning(f"Failed to send message: This issue is from my side. You can still mail me on my mail address ~ **:orange[aryachakraborty.official@gmail.com]**")
+            #st.warning(f"Failed to send message: This issue is from my side. You can still mail me on my mail address ~ **:orange[aryachakraborty.official@gmail.com]**")
+            st.toast(f"Failed to send message: This issue is from my side. You can still mail me on my mail address ~ **:orange[aryachakraborty.official@gmail.com]**")
     else:
         st.warning("Please fill out all fields.")
