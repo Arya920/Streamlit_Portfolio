@@ -81,6 +81,6 @@ layout.txt3('Model deployment 📱', '**:gray[ streamlit |  Flask |  Gradio]**')
 st.markdown('''
 # Soft Skills
 ''')
-layout.txt3('**Speaking**', '**:gray[At ease in speaking | pedagogue | patient | good communicator | able to pass on knowledge and popularize.]**')
+layout.txt3('**Speaking**', '**:gray[At ease in speaking | patient | good communicator | able to pass on knowledge and popularize.]**')
 layout.txt3('**Emotional intelligence**', '**:gray[Ease of understanding others and adapting to my audience]**')
 layout.txt3('**Good executive**', '**:gray[Adaptable | multidisciplinary | resilient]**')
