@@ -72,7 +72,7 @@ with col1:
     layout.txt3('**Mathematical Skills** :1234:', ' **:gray[Statistical Analysis | Multivariate Analysis | Time Series ]**')
     layout.txt3('**Programming** 🐍', '**:gray[Python | R | HTML | CSS]**')
     layout.txt3('**Data processing/wrangling**', '**:gray[SQL | pandas | numpy]**')
-    layout.txt3('**SGBD**', '**:gray[MySQL | SQLite]**')
+    layout.txt3('**Database Management System 🫙**', '**:gray[MySQL | SQLite]**')
     layout.txt3('**Scraping** 📈', '**:gray[BeautifulSoup | Scrapy]**')
     layout.txt3('**Data visualization** 📈', '**:gray[matplotlib | plotly |  seaborn ]**')
     layout.txt3('**Business Intelligence** ', '**:gray[ Power BI |  Excel |  Tableau ]**')
