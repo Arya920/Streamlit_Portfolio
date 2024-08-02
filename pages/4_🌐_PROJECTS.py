@@ -10,26 +10,40 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON,layout="wide")
 with st.sidebar:
     #st.subheader('**Project lists**')
     projects = st.selectbox('**Lists of Projects**', (
+                                                'Natural Language to SQL Conversion',
                                                 'Food Calorie and Weight Estimation for school E.R.P system',
                                                 'Gender Classification using CNN & OpenCV',
-                                                'Career Buddy - Career Guidance AI Chatbot',
                                                 'Web Application for Stock Price Analysis & Prediction',
                                                 'NLP-Powered Document Summarizer',
                                                 )
                                                 )
 
-if projects == 'Career Buddy - Career Guidance AI Chatbot':
-    chatbot_url = "Images/Project Images/Chatbot/chatbot.png"
-    col1,col2,col3 = st.columns([0.5,2,0.1])
+if projects == 'Natural Language to SQL Conversion':
+    docsummarizer_url = "Images/Project Images/NL2SQL/chatui.png"
+    col1,col2,col3 = st.columns([0.6,2,0.1])
     with col2:
         st.subheader(f'**:green[{projects}]**')
     col4,col5,col6 = st.columns([1,2,1])
     
     with col5:
-        st.image(chatbot_url,  width=450)
-        st.link_button("Repository", "https://github.com/Arya920/Career-Guidance-AI-bot")
-    with open("Images/Project Images/Chatbot/chatbot.md",'r') as f:
-        st.markdown(f.read(),unsafe_allow_html=True)
+        st.image(docsummarizer_url,  width=400)
+        st.link_button('Repository', 'https://github.com/Arya920/Natural_Language_To_SQL_Queries')
+
+    st.markdown("""
+        **:gray[Tags]** : `Quantization` | `GEMMA 2B` | `Deep Seek Coder 1.3B` | `LoRA & PEFT` | `SQL` | `Streamlit`
+            """)
+    with st.container():
+        st.caption("""
+                   Author: **Arya Chakraborty** | 
+                   Submission Date: **March 13, 2024** | 
+                   Submitted to: **Isnartech PVT. Ltd.** | 
+                   title: **Advanced NL-to-SQL Conversion Using LLMs: A Web-Based Database Query Solution**
+                   """)
+
+
+    with open("Images/Project Images/NL2SQL/nl2sql.markdown",'r') as a:
+        st.markdown(a.read(),unsafe_allow_html=True)
+    
     with st.popover('Give Feedback'):
         user_name = st.text_input('Name')
         user_mail = st.text_input('Gmail')
@@ -41,7 +55,7 @@ if projects == 'Career Buddy - Career Guidance AI Chatbot':
 
 #==================================================================== Food calorie Project=================================
 
-if projects == 'Food Calorie and Weight Estimation for school E.R.P system':
+elif projects == 'Food Calorie and Weight Estimation for school E.R.P system':
     foodcalorie_url = "Images/Project Images/FoodCalorie/logo.jpg"
     foodcalorie_pipeline = "Images/Project Images/FoodCalorie/FOOD-CALORIE-PIPELINE.png"
     foodimage1 = "Images/Project Images/FoodCalorie/FoodImage1.jpg"
@@ -60,6 +74,17 @@ if projects == 'Food Calorie and Weight Estimation for school E.R.P system':
         repo = st.button("Repository")
         if repo:
             st.toast('Sorry I have not uploaded the code yet')
+
+    st.markdown("""
+        **:gray[Tags]** : `Computer Vision` | `YOLO V8` | `Flask` | `Deep Learning`
+            """)
+    with st.container():
+        st.caption("""
+                   Author: **Arya Chakraborty** | 
+                   Submission Date: **July 30, 2024** | 
+                   Submitted to: **Isnartech PVT. Ltd.** | 
+                   title: **Food Calorie and Weight Estimation for school E.R.P system**
+                   """)
 
     with open("Images/Project Images/FoodCalorie/foodcalorie1.md",'r') as a:
         st.markdown(a.read(),unsafe_allow_html=True)
@@ -129,6 +154,18 @@ elif projects == 'Gender Classification using CNN & OpenCV':
     with col5:
         st.image(gender_classification_url,  width=450)
         st.link_button("Repository", "https://github.com/Arya920/Gender-Detection-Project")
+
+    st.markdown("""
+        **:gray[Tags]** : `Computer Vision` | `CNN` | `Flask` | `Open CV`
+            """)
+    with st.container():
+        st.caption("""
+                   Author: **Arya Chakraborty** | 
+                   Submission Date: **July 15, 2023** | 
+                   Submitted to: **VIT AP** | 
+                   title: **Gender Classification using CNN & OpenCV**
+                   """)
+
     with open("Images/Project Images/GenderClassification/genderclassification.md",'r') as c:
         st.markdown(c.read(),unsafe_allow_html=True)
     with st.popover('Give Feedback'):
@@ -140,13 +177,43 @@ elif projects == 'Gender Classification using CNN & OpenCV':
         if user_name and user_mail and user_msg:
             st.toast('Feedback Received ✅')
 
-
+### ===============================================================Document Summarizer====================================================
 elif projects == 'NLP-Powered Document Summarizer':
-    st.warning('Will Upload soon')
+    docsummarizer_url = "Images/Project Images/DocumentSummarizer/ss2.png"
+    col1,col2,col3 = st.columns([0.6,2,0.1])
+    with col2:
+        st.subheader(f'**:green[{projects}]**')
+    col4,col5,col6 = st.columns([1,2,1])
+    
+    with col5:
+        st.image(docsummarizer_url,  width=400)
+        st.link_button('Repository', 'https://github.com/Arya920/Document_Summarizer/tree/main')
+
+    st.markdown("""
+        **:gray[Tags]** : `Transformers` | `BERT Model` | `LoRA & PEFT` | `Text-to-Speech` | `Pegasus`
+            """)
+    with st.container():
+        st.caption("""
+                   Authors: **Arya Chakraborty, Shritama Sengupta, Ketan Kumar, Shivam Sen Gupta** | 
+                   Submission Date: **Sep 18, 2023** | 
+                   Submitted to: **Geeks for Geeks Hackathon** | 
+                   title: **Infinisynth-NLP-Powered Document Summarizer**
+                   """)
+    with open("Images/Project Images/DocumentSummarizer/documentsummarizer.md",'r') as d:
+        st.markdown(d.read(),unsafe_allow_html=True)
+    
+    with st.popover('Give Feedback'):
+        user_name = st.text_input('Name')
+        user_mail = st.text_input('Gmail')
+        user_msg = st.text_area('Your Feedback')
+        submitted = st.button('Submit')
+    if submitted:
+        if user_name and user_mail and user_msg:
+            st.toast('Feedback Received ✅')
+
 
 elif projects == 'Web Application for Stock Price Analysis & Prediction':
     st.warning('Will Upload soon')
-
 
 
 
